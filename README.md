@@ -15,29 +15,29 @@ Student maintenence system created using ReactJS. It uses Spring Rest API and MY
 ## Screen shots
 
 ### Home Component
-![Home Component](https://firebasestorage.googleapis.com/v0/b/student-maintenence.appspot.com/o/Screenshot%20(443).png?alt=media&token=f597bf4e-d135-4347-b3c3-962a2ec737d2)
+![Home Component](https://firebasestorage.googleapis.com/v0/b/student-maintenence.appspot.com/o/ScreenShots%2FScreenshot%20(455).png?alt=media&token=45d51c3a-11a3-4585-8ec8-87825fd1f3e2)
 
 ### Add Student
 
-![Add Student](https://firebasestorage.googleapis.com/v0/b/student-maintenence.appspot.com/o/Screenshot%20(444).png?alt=media&token=c6df9d76-b792-4c19-8b15-34876244ee14)
-![Add Student](https://firebasestorage.googleapis.com/v0/b/student-maintenence.appspot.com/o/Screenshot%20(445).png?alt=media&token=ca267f52-2cec-44d9-a6aa-af02853d0fd2)
+![Add Student]()
+![Add Student]()
 
 ### Get Student
 
-![Get Student](https://firebasestorage.googleapis.com/v0/b/student-maintenence.appspot.com/o/Screenshot%20(446).png?alt=media&token=97557159-3c68-4b5f-8003-1aceba4563df)
-![Get Student](https://firebasestorage.googleapis.com/v0/b/student-maintenence.appspot.com/o/Screenshot%20(447).png?alt=media&token=70085ef8-d923-460e-ba16-c2717dc90470)
+![Get Student]()
+![Get Student]()
 ### Delete Student
 
-![Delete Student](https://firebasestorage.googleapis.com/v0/b/student-maintenence.appspot.com/o/Screenshot%20(448).png?alt=media&token=75ab8ad1-2ecf-4282-83de-f36b630981e7)
-![Delete Student](https://firebasestorage.googleapis.com/v0/b/student-maintenence.appspot.com/o/Screenshot%20(449).png?alt=media&token=20a707d8-7117-48ab-80e2-e14953e9da37)
+![Delete Student]()
+![Delete Student]()
 ### Update Student
 
-![Update Student](https://firebasestorage.googleapis.com/v0/b/student-maintenence.appspot.com/o/Screenshot%20(450).png?alt=media&token=9106203b-d2b5-4836-925c-9cd053a44dad)
-![Update Student](https://firebasestorage.googleapis.com/v0/b/student-maintenence.appspot.com/o/Screenshot%20(451).png?alt=media&token=5371fe5c-1eba-4911-9a86-b51caad661ee)
+![Update Student]()
+![Update Student]()
 ### Aggregate Marks And Grade
 
-![Aggregate Marks And Grade](https://firebasestorage.googleapis.com/v0/b/student-maintenence.appspot.com/o/Screenshot%20(453).png?alt=media&token=7163ac58-2e5a-4429-965c-4be6abde6f77)
-![Aggregate Marks And Grade](https://firebasestorage.googleapis.com/v0/b/student-maintenence.appspot.com/o/Screenshot%20(454).png?alt=media&token=fcddc19f-5869-4d83-99b5-0da9363eeba9)
+![Aggregate Marks And Grade]()
+![Aggregate Marks And Grade]()
 
 
 ## Available Scripts
