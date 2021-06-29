@@ -52,7 +52,9 @@ function AggregateMarks() {
     <>
       <NavBar value="marks"></NavBar>
       <div className="container">
-        <p className="display-4 text-center p-3">Add Student</p>
+        <p className="display-4 text-center p-3" style={{ color: "#A600FF" }}>
+          Add Student
+        </p>
         <form onSubmit={addStudentAggregateMarksDb}>
           <div className="form-group">
             <label htmlFor="id">
@@ -108,6 +110,7 @@ function AggregateMarks() {
                 step="any"
                 required
                 value={mark1}
+                min={0}
                 max={10}
                 onChange={(e) => setMark1(e.target.value)}
               />
@@ -122,6 +125,7 @@ function AggregateMarks() {
                 placeholder="Q2 Marks"
                 step="any"
                 required
+                min={0}
                 max={10}
                 value={mark2}
                 onChange={(e) => setMark2(e.target.value)}
@@ -137,6 +141,7 @@ function AggregateMarks() {
                 placeholder="Q3 Marks"
                 step="any"
                 required
+                min={0}
                 max={10}
                 value={mark3}
                 onChange={(e) => setMark3(e.target.value)}
@@ -152,6 +157,7 @@ function AggregateMarks() {
                 placeholder="Q4 Marks"
                 step="any"
                 required
+                min={0}
                 max={10}
                 value={mark4}
                 onChange={(e) => setMark4(e.target.value)}
@@ -159,12 +165,12 @@ function AggregateMarks() {
             </div>
           </div>
           {!isLoading ? (
-            <button type="submit" className="btn btn-dark btn-lg btn-block">
+            <button type="submit" className="btn btn-info btn-lg btn-block">
               Add Student Details
             </button>
           ) : (
             <button
-              className="btn btn-dark btn-lg btn-block"
+              className="btn btn-info btn-lg btn-block"
               type="button"
               disabled
             >
@@ -179,7 +185,10 @@ function AggregateMarks() {
         </form>
         {isSuccess ? (
           <form>
-            <h4 className="text-center text-primary m-3">
+            <h4
+              className="text-center m-3"
+              style={{ color: "#A600FF" }}
+            >
               Student Marks And Grade Details
             </h4>
             <div className="form-group">

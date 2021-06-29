@@ -32,7 +32,9 @@ function DeleteStudent() {
     <>
       <NavBar value="deleteStudent"></NavBar>
       <div className="container">
-        <p className="display-4 text-center p-3">Delete Student</p>
+        <p className="display-4 text-center p-3" style={{ color: "#A600FF" }}>
+          Delete Student
+        </p>
         <form onSubmit={deleteStudentDb}>
           <div className="form-group">
             <label htmlFor="id">
@@ -45,16 +47,17 @@ function DeleteStudent() {
               required
               placeholder="Student Id"
               value={id}
+              min={0}
               onChange={(e) => setid(e.target.value)}
             />
           </div>
           {!isLoading ? (
-            <button type="submit" className="btn btn-dark btn-lg btn-block">
+            <button type="submit" className="btn btn-info btn-lg btn-block">
               Delete Student Details
             </button>
           ) : (
             <button
-              className="btn btn-btn-dark btn-lg btn-block"
+              className="btn btn-btn-info btn-lg btn-block"
               type="button"
               disabled
             >

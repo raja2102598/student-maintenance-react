@@ -40,7 +40,9 @@ function GetStudent() {
     <>
       <NavBar value="getStudent"></NavBar>
       <div className="container">
-        <p className="display-4 text-center p-3">Get Student</p>
+        <p className="display-4 text-center p-3" style={{ color: "#A600FF" }}>
+          Get Student
+        </p>
         <form onSubmit={getStudentDb}>
           <div className="form-group">
             <label htmlFor="id">
@@ -50,6 +52,7 @@ function GetStudent() {
               type="number"
               className="form-control"
               id="id"
+              min={0}
               required
               placeholder="Student Id"
               value={id}
@@ -57,12 +60,12 @@ function GetStudent() {
             />
           </div>
           {!isLoading ? (
-            <button type="submit" className="btn btn-dark btn-lg btn-block">
+            <button type="submit" className="btn btn-info btn-lg btn-block">
               Get Student Details
             </button>
           ) : (
             <button
-              className="btn btn-dark btn-lg btn-block"
+              className="btn btn-info btn-lg btn-block"
               type="button"
               disabled
             >

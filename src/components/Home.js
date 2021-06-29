@@ -12,7 +12,7 @@ function Home() {
             marginTop: "18%",
           }}
         >
-          <h3 className="display-4">
+          <h3 className="display-4" style={{ color: "#A600FF" }}>
             Welcome To Student Maintenence Application
           </h3>
         </div>

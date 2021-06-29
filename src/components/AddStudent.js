@@ -35,7 +35,9 @@ function AddStudent() {
     <>
       <NavBar value="addStudent" />
       <div className="container">
-        <p className="display-4 text-center p-3">Add Student</p>
+        <p className="display-4 text-center p-3" style={{ color: "#A600FF" }}>
+          Add Student
+        </p>
         <form onSubmit={addStudentDb}>
           <div className="form-group">
             <label htmlFor="email">
@@ -108,12 +110,12 @@ function AddStudent() {
             </select>
           </div>
           {!isLoading ? (
-            <button type="submit" className="btn btn-dark btn-lg btn-block">
+            <button type="submit" className="btn btn-info btn-lg btn-block">
               Add Student Details
             </button>
           ) : (
             <button
-              className="btn btn-dark btn-lg btn-block"
+              className="btn btn-info btn-lg btn-block"
               type="button"
               disabled
             >

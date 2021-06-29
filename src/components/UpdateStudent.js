@@ -36,7 +36,9 @@ function UpdateStudent() {
     <>
       <NavBar value="updateStudent"></NavBar>
       <div className="container">
-        <p className="display-4 text-center p-3">Update Student</p>
+        <p className="display-4 text-center p-3" style={{ color: "#A600FF" }}>
+          Update Student
+        </p>
         <form onSubmit={updateStudentDb}>
           <div className="form-group">
             <label htmlFor="id">
@@ -49,6 +51,7 @@ function UpdateStudent() {
               required
               placeholder="Student Id"
               value={id}
+              min={0}
               onChange={(e) => setid(e.target.value)}
             />
           </div>
@@ -67,12 +70,12 @@ function UpdateStudent() {
             />
           </div>
           {!isLoading ? (
-            <button type="submit" className="btn btn-dark btn-lg btn-block">
+            <button type="submit" className="btn btn-info btn-lg btn-block">
               Update Student Details
             </button>
           ) : (
             <button
-              className="btn btn-btn-dark btn-lg btn-block"
+              className="btn btn-info btn-lg btn-block"
               type="button"
               disabled
             >
@@ -86,7 +89,9 @@ function UpdateStudent() {
           )}
         </form>
         {isSuccess ? (
-          <h4 className="text-center text-success p-3">
+          <h4
+            className="text-center text-success p-3"
+          >
             Student Details Updated
           </h4>
         ) : (

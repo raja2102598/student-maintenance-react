@@ -10,7 +10,10 @@ function NavBar(props) {
   }, [props.value])
   return (
     <>
-      <nav className="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+      <nav
+        className="navbar navbar-expand-lg sticky-top navbar-dark"
+        style={{ backgroundColor: "#8934B7" }}
+      >
         <Link className="navbar-brand" to="/">
           Student Maintainence
         </Link>
