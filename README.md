@@ -2,6 +2,13 @@
 
 Student maintenence system created using ReactJS. It uses Spring Rest API and MYSQL as Database
 
+Note : Update CORS Policy in Spring API.
+```
+Add this Line in the top of all methods inside Controller class 
+
+    @CrossOrigin(origins = "http://localhost:3000")
+```
+
 ## Components
 
 - Home Component
@@ -12,7 +19,7 @@ Student maintenence system created using ReactJS. It uses Spring Rest API and MY
 - Aggregate Marks
 - NavBar
 
-## Screen shots
+## Screenshots
 
 ### Home Component
 ![Home Component](https://firebasestorage.googleapis.com/v0/b/student-maintenence.appspot.com/o/ScreenShots%2FScreenshot%20(455).png?alt=media&token=45d51c3a-11a3-4585-8ec8-87825fd1f3e2)
