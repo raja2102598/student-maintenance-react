@@ -13,7 +13,7 @@ function Home() {
           }}
         >
           <h3 className="display-4">
-            Welcome To Student Maintanence Application
+            Welcome To Student Maintenence Application
           </h3>
         </div>
       </div>
