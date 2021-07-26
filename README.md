@@ -3,10 +3,11 @@
 Student maintenence system created using ReactJS. It uses Spring Rest API and MYSQL as Database
 
 Note : Update CORS Policy in Spring API.
-```
-Add this Line in the top of all methods inside Controller class 
 
-    @CrossOrigin(origins = "http://localhost:3000")
+* Add this Line in the top of all methods inside Controller class 
+
+```
+@CrossOrigin(origins = "http://localhost:3000")
 ```
 
 ## Components
